@@ -6,20 +6,15 @@
 
 ### ‘Top 100’ Books
 
-Top 100 Songs of the Digital Era
-
-Top 100 Songs of the Rock Era
-
-Top 100 Albums of the All Time
-
-Top 100 Songs of the Pre-Rock Era
-
+>Top 100 Songs of the Digital Era  
+Top 100 Songs of the Rock Era  
+Top 100 Albums of the All Time  
+Top 100 Songs of the Pre-Rock Era  
 Top 100 Albums of the 21st Century
 
 ### Top 100 Songs of the Rock Era
 
-Summary
-
+>Summary  
 Reviews
 
 # Home
@@ -38,13 +33,10 @@ Reviews
 
 **See more from Dave**
 
->Album club– SVG_1
-
->Podcast– SVG_2
-
->More books– SVG_3
-
->Blog– SVG_4
+>Album club– SVG_1  
+Podcast– SVG_2  
+More books– SVG_3  
+Blog– SVG_4
 
 **See [wireframe](https://www.figma.com/file/PCkTD7wMqivRhwS2wvWMMv/IDM-211-Wireframe?type=design&node-id=0%3A1&mode=design&t=IXWxsvXzegGdix5P-1) for details**
 

@@ -23,6 +23,16 @@ Icon
 .VolumeIcon.icns
 .com.apple.timemachine.donotpresent
 
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
 # Directories potentially created on remote AFP share
 .AppleDB
 .AppleDesktop

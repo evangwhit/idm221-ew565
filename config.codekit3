@@ -85,6 +85,70 @@
       "oAP" : "\/deploy\/about-me.html",
       "oF" : 2
     },
+    "\/dev\/content\/index\/1hero.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/1hero.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/2blog.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/2blog.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/3books.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/3books.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/4podcast.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/4podcast.html",
+      "oF" : 0
+    },
+    "\/dev\/content\/index\/5club.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/index\/5club.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/footer.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/footer.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/head.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/global\/head.html",
+      "oF" : 0
+    },
+    "\/dev\/global\/nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/global\/nav.html",
+      "oF" : 0
+    },
     "\/dev\/index.kit" : {
       "cB" : 0,
       "ft" : 2048,

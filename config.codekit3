@@ -85,13 +85,21 @@
       "oAP" : "\/deploy\/about-me.html",
       "oF" : 2
     },
+    "\/dev\/content\/about-me\/1content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/about-me\/1content.html",
+      "oF" : 1
+    },
     "\/dev\/content\/index\/1hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/1hero.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/index\/2blog.kit" : {
       "cB" : 0,
@@ -99,7 +107,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/2blog.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/index\/3books.kit" : {
       "cB" : 0,
@@ -107,7 +115,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/3books.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/index\/4podcast.kit" : {
       "cB" : 0,
@@ -115,7 +123,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/4podcast.html",
-      "oF" : 0
+      "oF" : 1
     },
     "\/dev\/content\/index\/5club.kit" : {
       "cB" : 0,
@@ -123,7 +131,47 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/5club.html",
-      "oF" : 0
+      "oF" : 1
+    },
+    "\/dev\/content\/song-template\/1stats.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/song-template\/1stats.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/song-template\/2info.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/song-template\/2info.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/top-100-books\/1summary.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/top-100-books\/1summary.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/top-100-books\/2books.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/top-100-books\/2books.html",
+      "oF" : 1
+    },
+    "\/dev\/content\/top-100-rock-era\/1content.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/top-100-rock-era\/1content.html",
+      "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
       "cB" : 0,

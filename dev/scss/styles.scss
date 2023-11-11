@@ -8,6 +8,11 @@
 @import "base/_typography";
 
 // Components Styles
-@import "components/_buttons";
+@import "universal/_components";
+@import "universal/_patterns";
 
 // Layout Styles
+
+    // Index
+        @import "pages/index/1hero";
+        @import "pages/index/2blog";

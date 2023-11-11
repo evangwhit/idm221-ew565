@@ -1,0 +1,21 @@
+.hero1 {
+
+    .img {
+        background-image: url("../../Assets/Images/Gradient-BG.jpg");
+        background-size: cover;
+
+        padding: calc(var(--Rythm)*3) var(--Rythm);
+
+        color: var(--White);
+        margin: 0;
+    }
+
+    p{
+        margin: var(--Rythm) var(--Rythm) 0;
+    }
+
+    .button{
+        margin: calc(var(--Rythm)*1.5) var(--Rythm) 0;
+    }
+
+}

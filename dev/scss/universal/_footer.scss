@@ -1,0 +1,30 @@
+footer{
+    padding: var(--Rythm);
+    margin-top: calc(2.375*var(--Rythm));
+    background-color: var(--Black);
+    color: var(--White);
+
+
+    a{
+        color: var(--White);
+        font-weight: normal;
+        display: block;
+        padding: calc(var(--Rythm)*0.75) 0 0;
+
+        &:first-of-type{
+        padding: var(--Rythm) 0 0;
+        }
+
+        &:last-of-type{
+            margin-bottom: calc(-.5*var(--Rythm));
+        }
+    }
+
+    aside{
+        position: relative;
+        right: var(--Rythm);
+        bottom: calc(1.5*var(--Rythm));
+
+        text-align: right;
+    }
+}

@@ -7,12 +7,21 @@
 @import "base/_normalize";
 @import "base/_typography";
 
-// Components Styles
+// Universal Styles
 @import "universal/_components";
 @import "universal/_patterns";
+@import "universal/_header";
+@import "universal/_footer";
+
 
 // Layout Styles
 
     // Index
         @import "pages/index/1hero";
         @import "pages/index/2blog";
+        @import "pages/index/3books";
+        @import "pages/index/4spotify";
+        @import "pages/index/5club";
+
+        
+

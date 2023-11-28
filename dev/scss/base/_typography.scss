@@ -1,7 +1,7 @@
 :root {
     /* Text-size styles */
     /* base size: 16-point (16px) */
-        --h1: 3.44rem;
+        --h1: 3.38rem;
         --h2: 2.75rem;
         --h3: 2.19rem;
         --h4: 1.75rem;
@@ -21,24 +21,24 @@
     margin: 0;
   }
 
-  h1 {
+  h1, .h1{
     font-size: var(--h1);
     text-transform: uppercase;
   }
   
-  h2 {
+  h2, .h2 {
     font-size: var(--h2);
     text-transform: uppercase;
     margin-top: calc(var(--Rythm)*2.375);
   }
 
-  h3 {
+  h3, .h3 {
     font-size: var(--h3);
     text-transform: uppercase;
 
   }
 
-  h4 {
+  h4, .h4 {
     font-size: var(--h4);
     text-transform: uppercase;
     line-height: 130%;

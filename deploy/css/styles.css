@@ -345,7 +345,7 @@ template {
 :root {
   /* Text-size styles */
   /* base size: 16-point (16px) */
-  --h1: 3.44rem;
+  --h1: 3.38rem;
   --h2: 2.75rem;
   --h3: 2.19rem;
   --h4: 1.75rem;
@@ -365,23 +365,23 @@ h1, h2, h3, h4 {
   margin: 0;
 }
 
-h1 {
+h1, .h1 {
   font-size: var(--h1);
   text-transform: uppercase;
 }
 
-h2 {
+h2, .h2 {
   font-size: var(--h2);
   text-transform: uppercase;
   margin-top: calc(var(--Rythm) * 2.375);
 }
 
-h3 {
+h3, .h3 {
   font-size: var(--h3);
   text-transform: uppercase;
 }
 
-h4 {
+h4, .h4 {
   font-size: var(--h4);
   text-transform: uppercase;
   line-height: 130%;
@@ -428,8 +428,33 @@ a {
   background-size: cover;
 }
 
-.img + h1 {
+.img + h2 {
   margin-top: calc(var(--Rythm) * 0.5);
+}
+
+footer {
+  padding: var(--Rythm);
+  margin-top: calc(2.375 * var(--Rythm));
+  background-color: var(--Black);
+  color: var(--White);
+}
+footer a {
+  color: var(--White);
+  font-weight: normal;
+  display: block;
+  padding: calc(var(--Rythm) * 0.75) 0 0;
+}
+footer a:first-of-type {
+  padding: var(--Rythm) 0 0;
+}
+footer a:last-of-type {
+  margin-bottom: calc(-0.5 * var(--Rythm));
+}
+footer aside {
+  position: relative;
+  right: var(--Rythm);
+  bottom: calc(1.5 * var(--Rythm));
+  text-align: right;
 }
 
 .hero1 .img {
@@ -480,4 +505,48 @@ a {
 }
 .blog2 .button {
   align-self: center;
+}
+
+.books3 {
+  padding: calc(2.375 * var(--Rythm)) 0 0;
+}
+.books3 img {
+  max-width: 100%;
+}
+.books3 h2, .books3 p, .books3 a {
+  margin-left: var(--Rythm);
+  margin-right: var(--Rythm);
+}
+
+.spotify4 {
+  padding: 0 var(--Rythm);
+  display: grid;
+  grid-template-columns: 40% 1fr;
+  grid-template-areas: "d d" "a b" "c c";
+  gap: var(--Rythm);
+  width: 100%;
+}
+.spotify4 h2 {
+  grid-area: d;
+}
+.spotify4 img {
+  grid-area: a;
+  width: 100%;
+}
+.spotify4 h3 {
+  grid-area: b;
+}
+.spotify4 a {
+  grid-area: c;
+}
+
+.club5 {
+  padding: calc(2.375 * var(--Rythm)) 0 0;
+}
+.club5 img {
+  max-width: 100%;
+}
+.club5 h2, .club5 p, .club5 a {
+  margin-left: var(--Rythm);
+  margin-right: var(--Rythm);
 }

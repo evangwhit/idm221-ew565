@@ -1,0 +1,28 @@
+.spotify4 {
+    padding: 0 var(--Rythm);
+
+    display: grid;
+    grid-template-columns: 40% 1fr;
+    grid-template-areas: "d d""a b" "c c";
+    gap: var(--Rythm);
+    width: 100%;
+    
+    h2{
+        grid-area: d;
+    }
+
+    img{
+        grid-area: a;
+        width: 100%;
+    }
+
+    h3{
+        grid-area: b;
+    }
+
+    a{
+        grid-area: c;
+    }
+
+
+}

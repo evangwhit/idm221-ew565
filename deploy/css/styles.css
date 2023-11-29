@@ -408,6 +408,14 @@ a {
 }
 
 .button {
+  font-size: var(--button_text);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.button {
   background-color: var(--Black);
   color: var(--White);
   display: inline-block;
@@ -549,4 +557,28 @@ footer aside {
 .club5 h2, .club5 p, .club5 a {
   margin-left: var(--Rythm);
   margin-right: var(--Rythm);
+}
+
+.summary1 > div {
+  width: 100%;
+  padding: var(--Rythm);
+}
+.summary1 img {
+  width: calc(100% + var(--Rythm) * 2);
+  margin: calc(-1 * var(--Rythm)) calc(-1 * var(--Rythm)) 0 calc(-1 * var(--Rythm));
+}
+.summary1 h1 {
+  margin-top: calc(var(--Rythm) * 0.5);
+}
+.summary1 p {
+  padding-top: calc(0.5 * var(--Rythm));
+}
+.summary1 .test {
+  background-color: red;
+}
+.summary1 aside ul {
+  list-style-type: none;
+}
+.summary1 aside ul li {
+  padding-top: calc(0.875 * var(--Rythm));
 }

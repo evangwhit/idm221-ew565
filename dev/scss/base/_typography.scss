@@ -63,4 +63,12 @@
     line-height: 120%;
     margin: 0;
   }
+
+  .button {
+    font-size: var(--button_text);
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+  }
   

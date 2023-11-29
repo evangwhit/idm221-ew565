@@ -33,7 +33,7 @@
       "oAP" : "\/Assets\/Images\/Country-music.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -59,7 +59,7 @@
       "oAP" : "\/Assets\/Images\/more-books.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -72,7 +72,7 @@
       "oAP" : "\/Assets\/Images\/podcast.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -85,7 +85,7 @@
       "oAP" : "\/Assets\/Images\/Rolling-stones.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -98,7 +98,7 @@
       "oAP" : "\/Assets\/Images\/South-pacific-album.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -132,7 +132,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/about-me.html",
       "oF" : 0
     },
@@ -143,7 +143,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
@@ -152,7 +152,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
@@ -160,7 +160,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/song-template.html",
       "oF" : 0
     },
@@ -176,7 +176,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/deploy\/top-100-rock-era.html",
       "oF" : 0
     },
@@ -258,7 +258,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/top-100-books\/1summary.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/top-100-books\/2books.kit" : {
       "cB" : 0,
@@ -428,6 +428,36 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/pages\/top-100-books\/1summary.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/pages\/top-100-books\/1summary.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/pages\/top-100-books\/2books.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/pages\/top-100-books\/2books.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/dev\/scss\/styles.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -511,20 +541,20 @@
       "oAP" : "\/deploy\/song-template.html",
       "oF" : 2
     },
-    "\/dev\/top-100-books.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/deploy\/top-100-books.html",
-      "oF" : 2
-    },
     "\/dev\/top-100-rock-era.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/top-100-rock-era.html",
+      "oF" : 2
+    },
+    "\/dev\/top-100.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/top-100.html",
       "oF" : 2
     },
     "\/README.md" : {
@@ -577,7 +607,8 @@
     "displayValue" : "idm221-ew565",
     "displayValueWasSetByUser" : 0,
     "iconImageName" : "brackets-unblue",
-    "iconImageWasSetByUser" : 0
+    "iconImageWasSetByUser" : 0,
+    "lastBuiltDate" : 722919483.21908498
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

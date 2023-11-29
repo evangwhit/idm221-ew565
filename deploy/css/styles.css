@@ -408,14 +408,6 @@ a {
 }
 
 .button {
-  font-size: var(--button_text);
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  text-transform: uppercase;
-}
-
-.button {
   background-color: var(--Black);
   color: var(--White);
   display: inline-block;
@@ -563,22 +555,70 @@ footer aside {
   width: 100%;
   padding: var(--Rythm);
 }
+.summary1 > div .line {
+  margin: 0;
+}
 .summary1 img {
   width: calc(100% + var(--Rythm) * 2);
   margin: calc(-1 * var(--Rythm)) calc(-1 * var(--Rythm)) 0 calc(-1 * var(--Rythm));
 }
 .summary1 h1 {
   margin-top: calc(var(--Rythm) * 0.5);
+  margin-bottom: var(--Rythm);
 }
 .summary1 p {
-  padding-top: calc(0.5 * var(--Rythm));
+  margin-top: var(--Rythm);
 }
-.summary1 .test {
-  background-color: red;
+.summary1 aside {
+  padding: var(--Rythm);
+  background-color: var(--Purple-LM);
+}
+.summary1 aside h2 {
+  font-size: var(--button_text);
+  margin: 0;
+}
+.summary1 aside img {
+  float: right;
+  padding-right: var(--Rythm);
+  width: 40%;
+  margin-left: var(--Rythm);
 }
 .summary1 aside ul {
   list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 .summary1 aside ul li {
   padding-top: calc(0.875 * var(--Rythm));
+}
+.summary1 aside a {
+  font-weight: 400;
+  font-size: var(--16-point);
+  color: var(--Black);
+}
+
+.books2 img {
+  width: 60%;
+  display: block;
+  margin: auto;
+}
+.books2 span {
+  font-size: var(--button_text);
+  line-height: 0;
+}
+.books2 .line {
+  margin: calc(0.25 * var(--Rythm)) 0;
+}
+.books2 h2 {
+  margin-top: 0;
+}
+.books2 article {
+  padding: var(--Rythm);
+  padding-top: calc(3.5 * var(--Rythm));
+}
+.books2 article .button {
+  width: 100%;
+}
+.books2 article .top-margin-larger {
+  margin-top: var(--Rythm);
 }

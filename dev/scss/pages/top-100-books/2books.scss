@@ -1,0 +1,34 @@
+.books2{
+
+    img{
+       width: 60%;
+       display: block;
+       margin: auto;
+    }
+
+    span{
+        font-size: var(--button_text);
+        line-height: 0;
+    }
+
+    .line{
+        margin: calc(0.25*var(--Rythm)) 0;
+    }
+
+    h2{
+        margin-top: 0;
+    }
+
+    article{
+        padding: var(--Rythm);
+        padding-top: calc(3.5*var(--Rythm));
+
+        .button{
+            width: 100%;
+        }
+
+        .top-margin-larger{
+            margin-top: var(--Rythm);
+        }
+    }
+}

@@ -103,6 +103,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Assets\/Images\/South-pacific-album.jpg" : {
+      "ft" : 16384,
+      "iS" : 549762,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/South-pacific-album.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Assets\/Images\/Tom-petty.jpg" : {
       "ft" : 16384,
       "iS" : 46103,
@@ -115,6 +128,105 @@
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
+    },
+    "\/Assets\/Images\/top-100-books\/1980s.jpg" : {
+      "ft" : 16384,
+      "iS" : 83323,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/top-100-books\/1980s.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Images\/top-100-books\/albums21.jpg" : {
+      "ft" : 16384,
+      "iS" : 84991,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/top-100-books\/albums21.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Images\/top-100-books\/all-time.jpg" : {
+      "ft" : 16384,
+      "iS" : 95876,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/top-100-books\/all-time.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Images\/top-100-books\/classic-rock.jpg" : {
+      "ft" : 16384,
+      "iS" : 81148,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/top-100-books\/classic-rock.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Images\/top-100-books\/digital.jpg" : {
+      "ft" : 16384,
+      "iS" : 93906,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/top-100-books\/digital.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Images\/top-100-books\/pre-rock.jpg" : {
+      "ft" : 16384,
+      "iS" : 117927,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/top-100-books\/pre-rock.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/Assets\/Images\/top-100-books\/rock-era.jpg" : {
+      "ft" : 16384,
+      "iS" : 131715,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/top-100-books\/rock-era.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/build\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/build\/.gitignore",
+      "oF" : 0
     },
     "\/css\/styles.css" : {
       "aP" : 1,
@@ -541,6 +653,14 @@
       "oAP" : "\/deploy\/song-template.html",
       "oF" : 2
     },
+    "\/dev\/top-100-books.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/top-100-books.html",
+      "oF" : 2
+    },
     "\/dev\/top-100-rock-era.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -549,13 +669,13 @@
       "oAP" : "\/deploy\/top-100-rock-era.html",
       "oF" : 2
     },
-    "\/dev\/top-100.kit" : {
+    "\/README.html" : {
       "cB" : 0,
-      "ft" : 2048,
+      "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/deploy\/top-100.html",
-      "oF" : 2
+      "oAP" : "\/README.html",
+      "oF" : 0
     },
     "\/README.md" : {
       "cB" : 0,
@@ -575,6 +695,14 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
+    },
+    "\/site-contents.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/site-contents.html",
+      "oF" : 0
     },
     "\/site-contents.md" : {
       "cB" : 0,

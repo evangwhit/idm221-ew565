@@ -404,6 +404,16 @@ a, .button-txt {
   margin: 0;
 }
 
+.reference {
+  vertical-align: super;
+  font-weight: 700;
+  font-size: calc(0.65 * var(--body_copy));
+}
+
+.italic {
+  font-style: italic;
+}
+
 .button {
   background-color: var(--Black);
   color: var(--White);
@@ -716,4 +726,65 @@ footer aside {
 }
 .about-me div:last-of-type p {
   margin-top: var(--Rythm);
+}
+
+.stats1 div {
+  padding: 0 var(--Rythm);
+  margin: calc(1.5 * var(--Rythm)) 0;
+}
+.stats1 div p, .stats1 div h1 {
+  margin: 0;
+  text-transform: uppercase;
+}
+.stats1 div .line2 {
+  margin: calc(0.375 * var(--16-point)) 0;
+}
+.stats1 aside {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #EAEAEA;
+  padding: var(--Rythm);
+}
+.stats1 aside img {
+  width: 70%;
+  margin-bottom: var(--Rythm);
+}
+.stats1 aside table {
+  border-collapse: collapse;
+}
+.stats1 aside table tr {
+  border-bottom: 1px solid #C0C0C0;
+}
+.stats1 aside table tr td {
+  padding: var(--Rythm) calc(0.5 * var(--Rythm));
+}
+.stats1 aside table tr td:first-of-type {
+  padding-right: var(--Rythm);
+  font-weight: 700;
+  font-size: var(--16-point);
+}
+
+.info2 {
+  padding: 0 var(--Rythm);
+}
+.info2 .line2 {
+  margin: calc(0.375 * var(--Rythm)) 0 calc(1.5 * var(--Rythm));
+}
+.info2 p {
+  margin-top: var(--Rythm);
+}
+.info2 .lyrics {
+  padding: calc(1.5 * var(--Rythm));
+}
+.info2 .lyrics p {
+  font-size: var(--16-point);
+  font-style: italic;
+  line-height: 160%;
+}
+.info2 h3 {
+  margin-top: calc(3 * var(--Rythm));
+}
+.info2 ul {
+  padding-left: calc(1.5 * var(--Rythm));
 }

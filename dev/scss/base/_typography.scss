@@ -59,4 +59,14 @@
     line-height: 120%;
     margin: 0;
   }
-  
+
+  .reference{
+    vertical-align: super;
+    font-weight: 700;
+    font-size: calc(0.65* var(--body_copy));
+  }
+
+  .italic{
+    font-style: italic;
+  }
+

@@ -1,0 +1,27 @@
+.info2{
+    padding: 0 var(--Rythm);
+    .line2{
+        margin: calc(0.375 * var(--Rythm)) 0 calc(1.5 * var(--Rythm));
+    }
+
+    p{
+        margin-top: var(--Rythm);
+    }
+
+    .lyrics{
+        padding: calc(1.5* var(--Rythm));
+        p{
+            font-size: var(--16-point);
+            font-style: italic;
+            line-height: 160%;
+        }
+    }
+
+    h3{
+        margin-top: calc(3 * var(--Rythm));
+    }
+
+    ul{
+        padding-left: calc(1.5* var(--Rythm));
+    }
+}

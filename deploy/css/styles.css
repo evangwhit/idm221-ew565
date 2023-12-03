@@ -680,3 +680,40 @@ footer aside {
 .top-100-rock-era .more-info .ATA {
   display: none;
 }
+
+.about-me img {
+  width: 100%;
+}
+.about-me div {
+  padding: 0 var(--Rythm);
+}
+.about-me aside {
+  margin-top: var(--Rythm);
+  background-color: #EAEAEA;
+  padding: calc(1.5 * var(--Rythm)) var(--Rythm);
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-template-areas: "a b" "c b";
+}
+.about-me aside h2 {
+  width: 100%;
+  grid-area: a;
+}
+.about-me aside img {
+  grid-area: b;
+}
+.about-me aside table {
+  grid-area: c;
+}
+.about-me aside table td {
+  padding: calc(0.75 * var(--Rythm)) calc(0.5 * var(--Rythm)) 0 0;
+}
+.about-me aside table tr > td:first-of-type {
+  font-weight: 700;
+}
+.about-me div:last-of-type {
+  margin-top: calc(3 * var(--Rythm));
+}
+.about-me div:last-of-type p {
+  margin-top: var(--Rythm);
+}

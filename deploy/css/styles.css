@@ -496,7 +496,7 @@ footer p {
 }
 
 .hero1 .img {
-  background-image: url("../../Assets/Images/Gradient-BG.jpg");
+  background-image: url("img/Images/Gradient-BG.jpg");
   background-size: cover;
   padding: calc(var(--Rythm) * 3) var(--Rythm);
   color: var(--White);

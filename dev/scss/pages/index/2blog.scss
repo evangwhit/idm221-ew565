@@ -18,7 +18,7 @@
 
         img{
             width: calc(100% + calc(var(--Rythm)*2));
-            margin: calc(-1*var(--Rythm)) calc(-1*var(--Rythm))  0 calc(-1*var(--Rythm));
+            margin: calc(-1*var(--Rythm)) calc(-1*var(--Rythm))  0;
             border: 1px solid #eaeaea;
             border-bottom: 0px;
         }

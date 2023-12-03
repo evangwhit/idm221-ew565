@@ -4,7 +4,7 @@
     {
       "name" : "Process All Remaining Files and Folders",
       "stepType" : 1,
-      "uuidString" : "9EDF1EE1-76D2-4A4A-A48A-55F9FC13FAF4"
+      "uuidString" : "8AB4AFAD-719A-4232-BD4F-194AE60C02A4"
     }
   ],
   "creatorBuild" : "34510",
@@ -27,65 +27,65 @@
     },
     "\/Assets\/Images\/Country-music.jpg" : {
       "ft" : 16384,
-      "iS" : 78100,
+      "iS" : 72201,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Images\/Country-music.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/Assets\/Images\/Gradient-BG.jpg" : {
       "ft" : 16384,
-      "iS" : 711391,
+      "iS" : 407280,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Images\/Gradient-BG.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/Assets\/Images\/more-books.jpg" : {
       "ft" : 16384,
-      "iS" : 363343,
+      "iS" : 336895,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Images\/more-books.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/Assets\/Images\/podcast.jpg" : {
       "ft" : 16384,
-      "iS" : 139868,
+      "iS" : 116696,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Images\/podcast.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
     },
     "\/Assets\/Images\/Rolling-stones.jpg" : {
       "ft" : 16384,
-      "iS" : 23754,
+      "iS" : 22898,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Images\/Rolling-stones.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -98,7 +98,7 @@
       "oAP" : "\/Assets\/Images\/South-pacific-album.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -118,13 +118,13 @@
     },
     "\/Assets\/Images\/Tom-petty.jpg" : {
       "ft" : 16384,
-      "iS" : 46103,
+      "iS" : 42591,
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/Assets\/Images\/Tom-petty.jpg",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 1,
+      "opt" : 0,
       "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 75
@@ -244,7 +244,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/about-me.html",
       "oF" : 0
     },
@@ -255,7 +255,7 @@
       "co" : 0,
       "ft" : 16,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/css\/styles-min.css",
       "oF" : 0,
       "pg" : 0
@@ -264,7 +264,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/index.html",
       "oF" : 0
     },
@@ -272,7 +272,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/song-template.html",
       "oF" : 0
     },
@@ -288,7 +288,7 @@
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/top-100-rock-era.html",
       "oF" : 0
     },
@@ -306,7 +306,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/about-me\/1content.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/index\/1hero.kit" : {
       "cB" : 0,
@@ -314,7 +314,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/1hero.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/index\/2blog.kit" : {
       "cB" : 0,
@@ -322,7 +322,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/2blog.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/index\/3books.kit" : {
       "cB" : 0,
@@ -330,7 +330,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/3books.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/index\/4spotify.kit" : {
       "cB" : 0,
@@ -338,7 +338,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/4spotify.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/index\/5club.kit" : {
       "cB" : 0,
@@ -346,7 +346,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/index\/5club.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/song-template\/1stats.kit" : {
       "cB" : 0,
@@ -354,7 +354,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/song-template\/1stats.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/song-template\/2info.kit" : {
       "cB" : 0,
@@ -362,7 +362,7 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/song-template\/2info.html",
-      "oF" : 1
+      "oF" : 0
     },
     "\/dev\/content\/top-100-books\/1summary.kit" : {
       "cB" : 0,
@@ -378,14 +378,14 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/content\/top-100-books\/2books.html",
-      "oF" : 1
+      "oF" : 0
     },
-    "\/dev\/content\/top-100-rock-era\/1content.kit" : {
+    "\/dev\/content\/top-100-rock-era\/1contents.kit" : {
       "cB" : 0,
       "ft" : 2048,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dev\/content\/top-100-rock-era\/1content.html",
+      "oAP" : "\/dev\/content\/top-100-rock-era\/1contents.html",
       "oF" : 1
     },
     "\/dev\/global\/footer.kit" : {
@@ -505,7 +505,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/pages\/index\/3books.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -520,7 +520,7 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/pages\/index\/4spotify.css",
-      "oF" : 1,
+      "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
@@ -565,6 +565,21 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/pages\/top-100-books\/2books.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/pages\/top-100-rock-era\/1content.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "co" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/pages\/top-100-rock-era\/1content.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -669,14 +684,6 @@
       "oAP" : "\/deploy\/top-100-rock-era.html",
       "oF" : 2
     },
-    "\/README.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/README.html",
-      "oF" : 0
-    },
     "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -695,14 +702,6 @@
       "pME" : 1,
       "rFN" : 0,
       "uCM" : 0
-    },
-    "\/site-contents.html" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/site-contents.html",
-      "oF" : 0
     },
     "\/site-contents.md" : {
       "cB" : 0,
@@ -731,12 +730,11 @@
 
   },
   "projectAttributes" : {
-    "creationDate" : 719443691.24799895,
+    "creationDate" : 723257837.43834698,
     "displayValue" : "idm221-ew565",
     "displayValueWasSetByUser" : 0,
-    "iconImageName" : "brackets-unblue",
-    "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 722919483.21908498
+    "iconImageName" : "brackets-red",
+    "iconImageWasSetByUser" : 0
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,

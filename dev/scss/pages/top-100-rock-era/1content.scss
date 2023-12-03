@@ -1,0 +1,68 @@
+.top-100-rock-era{
+
+    section{
+        padding: 0 var(--Rythm);
+    }
+    /* ---------------
+        Section 1
+    ---------------- */
+    img{
+        width: calc(100% + calc(var(--Rythm)*2));
+        margin: 0 calc(-1*var(--Rythm));
+    }
+
+    h1{
+        padding-top: var(--Rythm);
+    }
+
+    .line2{
+        margin: var(--Rythm) 0;
+    }
+
+    a{
+        width: 100%;
+        margin-top: calc(2*var(--Rythm));
+    }
+
+
+    /*--------------
+        Section 2 
+    ---------------*/
+
+    .h3{
+        text-align: center;
+        padding: 0 calc(2*var(--Rythm));
+        margin-top: calc(2.87 * var(--Rythm));
+    }
+
+    /*--------------
+        Section 3 
+    ---------------*/
+    .more-info{
+        display: flex;
+        padding: calc(2*var(--Rythm)) var(--Rythm) calc(2.5*var(--Rythm));
+        flex-direction: column;
+        align-items: flex-start;
+        background: var(--Purple-LM);
+        margin: calc(2.37*var(--Rythm)) 0;
+
+        div:first-of-type{
+            border-bottom: 1px solid #CDCDCD;
+        }
+       
+        .details-h3{
+            display: inline-block;
+            padding: calc(0.5*var(--Rythm)) calc(0.875*var(--Rythm));
+
+            &:first-of-type{
+                border-bottom: 2px solid var(--Black);
+            }
+        }
+
+        .ATA{
+            display: none;
+        }
+    }
+}
+
+    

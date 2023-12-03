@@ -15,6 +15,12 @@
     margin: calc(var(--Rythm)*2.375) var(--Rythm) 0;
 }
 
+.line2 {
+    height: 1px;
+    background-color: var(--BG-DM);
+    margin: calc(var(--Rythm)*2.375) 0 0;
+}
+
 .img{
     background-size: cover;
 }

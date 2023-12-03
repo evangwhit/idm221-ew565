@@ -3,6 +3,7 @@ footer{
     margin-top: calc(2.375*var(--Rythm));
     background-color: var(--Black);
     color: var(--White);
+    position: relative;
 
 
     a{
@@ -20,11 +21,25 @@ footer{
         }
     }
 
+    nav{
+        margin-bottom: calc(2 * var(--Rythm));
+    }
+
     aside{
-        position: relative;
+        position: absolute;
         right: var(--Rythm);
-        bottom: calc(1.5*var(--Rythm));
+        bottom: calc(2.5 * var(--Rythm));
+
+        width: 50px;
+
+        display: flex;
+        justify-content: right;
 
         text-align: right;
+    }
+
+    p{
+        text-transform: uppercase;
+        padding-top: calc(3* var(--Rythm));
     }
 }

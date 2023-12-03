@@ -445,11 +445,26 @@ a, .button-txt {
   margin-top: calc(var(--Rythm) * 0.5);
 }
 
+header {
+  padding: calc(0.75 * var(--Rythm)) var(--Rythm);
+  background-color: #E3E3E3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header p {
+  text-transform: uppercase;
+}
+header a {
+  color: var(--Black);
+}
+
 footer {
   padding: var(--Rythm);
   margin-top: calc(2.375 * var(--Rythm));
   background-color: var(--Black);
   color: var(--White);
+  position: relative;
 }
 footer a {
   color: var(--White);
@@ -463,11 +478,21 @@ footer a:first-of-type {
 footer a:last-of-type {
   margin-bottom: calc(-0.5 * var(--Rythm));
 }
+footer nav {
+  margin-bottom: calc(2 * var(--Rythm));
+}
 footer aside {
-  position: relative;
+  position: absolute;
   right: var(--Rythm);
-  bottom: calc(1.5 * var(--Rythm));
+  bottom: calc(2.5 * var(--Rythm));
+  width: 50px;
+  display: flex;
+  justify-content: right;
   text-align: right;
+}
+footer p {
+  text-transform: uppercase;
+  padding-top: calc(3 * var(--Rythm));
 }
 
 .hero1 .img {

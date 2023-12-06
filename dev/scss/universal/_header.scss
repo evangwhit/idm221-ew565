@@ -1,5 +1,5 @@
 header{
-    padding: calc(0.75 * var(--Rythm)) var(--Rythm);
+    padding: calc(0.75*var(--Rythm));
     background-color: #E3E3E3;
     display: flex;
     justify-content: space-between;
@@ -11,5 +11,12 @@ header{
 
     a{
         color: var(--Black);
+        width: 44px;
+        height: 44px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
     }
 }

@@ -1,4 +1,5 @@
 footer{
+    height: 100vh;
     padding: var(--Rythm);
     margin-top: calc(2.375*var(--Rythm));
     background-color: var(--Black);
@@ -9,12 +10,9 @@ footer{
     a{
         color: var(--White);
         font-weight: normal;
-        display: block;
-        padding: calc(var(--Rythm)*0.75) 0 0;
+        min-width: 44px;
+        padding: var(--Rythm) 0 var(--Rythm);
 
-        &:first-of-type{
-        padding: var(--Rythm) 0 0;
-        }
 
         &:last-of-type{
             margin-bottom: calc(-.5*var(--Rythm));
@@ -23,11 +21,14 @@ footer{
 
     nav{
         margin-bottom: calc(2 * var(--Rythm));
+        display: flex;
+        flex-direction: column;
+        align-items: start;
     }
 
     aside{
         position: absolute;
-        right: var(--Rythm);
+        right: 0;
         bottom: calc(2.5 * var(--Rythm));
 
         width: 50px;
@@ -36,10 +37,15 @@ footer{
         justify-content: right;
 
         text-align: right;
+
+        a{
+          padding: var(--Rythm);
+          min-width: auto;
+        }
     }
 
     p{
         text-transform: uppercase;
-        padding-top: calc(3* var(--Rythm));
+        padding: calc(3* var(--Rythm)) 0 calc(0.5 * var(--Rythm));
     }
 }

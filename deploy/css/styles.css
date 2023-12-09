@@ -557,7 +557,7 @@ footer p {
   margin: calc(var(--Rythm) * 0.75) 0 calc(var(--Rythm) * 0.375);
 }
 .blog2 .button {
-  align-self: center;
+  grid-column-end: span 2;
 }
 
 .books3 {
@@ -651,7 +651,7 @@ footer p {
 }
 
 .books2 img {
-  width: 60%;
+  width: 100%;
   display: block;
   margin: auto;
 }
@@ -664,10 +664,14 @@ footer p {
 }
 .books2 h2 {
   margin-top: 0;
+  line-height: 2.5rem;
 }
 .books2 article {
-  padding: var(--Rythm);
-  padding-top: calc(3.5 * var(--Rythm));
+  padding: 0 var(--Rythm);
+  margin-bottom: calc(6.875 * var(--Rythm));
+}
+.books2 article:first-of-type {
+  margin-top: calc(3.5 * var(--Rythm));
 }
 .books2 article .button {
   width: 100%;

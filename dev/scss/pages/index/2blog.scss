@@ -36,7 +36,7 @@
     }
     
     .button{
-        align-self: center;
+        grid-column-end: span 2;
     }
 }
 

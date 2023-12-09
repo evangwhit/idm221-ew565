@@ -155,6 +155,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/Assets\/Images\/the-killers.jpg" : {
+      "ft" : 16384,
+      "iS" : 233861,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/Assets\/Images\/the-killers.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/Assets\/Images\/Tom-petty.jpg" : {
       "ft" : 16384,
       "iS" : 42591,
@@ -429,6 +442,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/the-killers.jpg" : {
+      "ft" : 16384,
+      "iS" : 332818,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/the-killers.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/Tom-petty.jpg" : {
       "ft" : 16384,
       "iS" : 42591,
@@ -461,6 +487,32 @@
       "jF" : 0,
       "oA" : 0,
       "oAP" : "\/deploy\/img\/top-100-books\/albums21.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/top-100-books\/all-books.jpg" : {
+      "ft" : 16384,
+      "iS" : 321318,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/top-100-books\/all-books.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/deploy\/img\/top-100-books\/all-books2.jpg" : {
+      "ft" : 16384,
+      "iS" : 617983,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/top-100-books\/all-books2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 0,

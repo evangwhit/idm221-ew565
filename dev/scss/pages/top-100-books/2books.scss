@@ -1,7 +1,7 @@
 .books2{
 
     img{
-       width: 60%;
+       width: 100%;
        display: block;
        margin: auto;
     }
@@ -17,11 +17,16 @@
 
     h2{
         margin-top: 0;
+        line-height: 2.5rem;
     }
 
     article{
-        padding: var(--Rythm);
-        padding-top: calc(3.5*var(--Rythm));
+        padding: 0 var(--Rythm);
+        margin-bottom: calc(6.875*var(--Rythm));
+
+        &:first-of-type{
+            margin-top: calc(3.5*var(--Rythm));
+        }
 
         .button{
             width: 100%;

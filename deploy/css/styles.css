@@ -494,7 +494,7 @@ footer aside {
   right: 0;
   bottom: 0;
   z-index: 1;
-  width: 50px;
+  width: 60px;
   height: 100%;
   padding: calc(2 * var(--Rythm)) var(--Rythm) var(--Rythm) 0;
   display: flex;

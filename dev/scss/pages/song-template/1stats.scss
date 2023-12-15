@@ -10,7 +10,7 @@
         }
 
         .line2{
-            margin: calc(0.375 * var(--16-point)) 0;
+            margin: calc(0.375 * var(--point_16)) 0;
         }
     }
  
@@ -37,7 +37,7 @@
                     &:first-of-type{
                         padding-right: var(--Rythm);
                         font-weight: 700;
-                        font-size: var(--16-point);
+                        font-size: var(--point_16);
                     }
                 }
             }

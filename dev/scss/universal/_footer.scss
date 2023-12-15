@@ -12,11 +12,6 @@ footer{
         font-weight: normal;
         min-width: 44px;
         padding: var(--Rythm) 0 var(--Rythm);
-
-
-        &:last-of-type{
-            margin-bottom: calc(-.5*var(--Rythm));
-        }
     }
 
     nav{
@@ -29,19 +24,24 @@ footer{
     aside{
         position: absolute;
         right: 0;
-        bottom: calc(2.5 * var(--Rythm));
+        bottom: 0;
+        z-index: 1;
 
         width: 50px;
+        height: 100%;
+
+        padding: calc(2*var(--Rythm)) var(--Rythm) var(--Rythm) 0;
 
         display: flex;
-        justify-content: right;
+        flex-direction: column;
+        justify-content: space-between;
 
-        text-align: right;
 
         a{
-          padding: var(--Rythm);
-          min-width: auto;
+            padding: 0;
+            margin: 0;
         }
+
     }
 
     p{

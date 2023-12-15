@@ -352,7 +352,7 @@ template {
   --subhead: 1.406rem;
   --button_text: 1.125rem;
   --body_copy: 1.125rem;
-  --16-point: 1rem;
+  --point_16: 1rem;
 }
 
 body {
@@ -483,9 +483,6 @@ footer a {
   min-width: 44px;
   padding: var(--Rythm) 0 var(--Rythm);
 }
-footer a:last-of-type {
-  margin-bottom: calc(-0.5 * var(--Rythm));
-}
 footer nav {
   margin-bottom: calc(2 * var(--Rythm));
   display: flex;
@@ -495,15 +492,18 @@ footer nav {
 footer aside {
   position: absolute;
   right: 0;
-  bottom: calc(2.5 * var(--Rythm));
+  bottom: 0;
+  z-index: 1;
   width: 50px;
+  height: 100%;
+  padding: calc(2 * var(--Rythm)) var(--Rythm) var(--Rythm) 0;
   display: flex;
-  justify-content: right;
-  text-align: right;
+  flex-direction: column;
+  justify-content: space-between;
 }
 footer aside a {
-  padding: var(--Rythm);
-  min-width: auto;
+  padding: 0;
+  margin: 0;
 }
 footer p {
   text-transform: uppercase;
@@ -646,7 +646,7 @@ footer p {
 }
 .summary1 aside a {
   font-weight: 400;
-  font-size: var(--16-point);
+  font-size: var(--point_16);
   color: var(--Black);
 }
 
@@ -686,6 +686,9 @@ footer p {
   ---------------- */
   /*--------------
       Section 2 
+  ---------------*/
+  /*--------------
+      Section 3 
   ---------------*/
   /*--------------
       Section 3 
@@ -734,6 +737,15 @@ footer p {
 .top-100-rock-era .more-info .ATA {
   display: none;
 }
+.top-100-rock-era .description ul {
+  font-size: var(--body_copy);
+  font-weight: 400;
+  line-height: 142%;
+  margin: 0;
+}
+.top-100-rock-era .description ul li {
+  padding-top: var(--Rythm);
+}
 
 .about-me img {
   width: 100%;
@@ -781,7 +793,7 @@ footer p {
   text-transform: uppercase;
 }
 .stats1 div .line2 {
-  margin: calc(0.375 * var(--16-point)) 0;
+  margin: calc(0.375 * var(--point_16)) 0;
 }
 .stats1 aside {
   display: flex;
@@ -806,7 +818,7 @@ footer p {
 .stats1 aside table tr td:first-of-type {
   padding-right: var(--Rythm);
   font-weight: 700;
-  font-size: var(--16-point);
+  font-size: var(--point_16);
 }
 
 .info2 {
@@ -822,7 +834,7 @@ footer p {
   padding: calc(1.5 * var(--Rythm));
 }
 .info2 .lyrics p {
-  font-size: var(--16-point);
+  font-size: var(--point_16);
   font-style: italic;
   line-height: 160%;
 }

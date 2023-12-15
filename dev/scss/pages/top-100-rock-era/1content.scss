@@ -63,6 +63,24 @@
             display: none;
         }
     }
+
+     /*--------------
+        Section 3 
+    ---------------*/
+
+    .description{
+
+        ul{
+            font-size: var(--body_copy);
+            font-weight: 400;
+            line-height: 142%;
+            margin: 0;
+
+            li{
+                padding-top: var(--Rythm);
+            }
+        }
+    }
 }
 
     
